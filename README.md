@@ -1,6 +1,6 @@
 # Analyze Re Hackathon at ShiftKey Labs
 
-**Join our [Slack Channel](https://analyzere-hackathon.slack.com/messages/CGREKDC9G/).**
+**Join our [Slack Channel](https://join.slack.com/t/analyzere-hackathon/shared_invite/enQtNTY4NzU1MTAwNjI0LTU0YzRhNjI0MmNhMDIwMGY1NzVmNjU2ZjJjODkyNThhZTY2MjY5MzIyOWJkOTgxNGY3OWNhMGM4MjQ3ODFlYzE).**
 
 Welcome to the Analyze Re Hackathon at ShiftKey Labs. We have a number of exciting challenges with varying levels of difficulty to choose from:
 
