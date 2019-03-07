@@ -55,8 +55,8 @@ criteria.
 You can find two example Event Catalog CSV files
 here:
 
-- [catalog_1.csv](catalog_1.csv) ()
-- [catalog_2.csv](catalog_2.csv) (1.3 MB)
+- [catalog_1.csv.xz](catalog_1.csv.xz) (24 MB)
+- [catalog_2.csv.xz](catalog_2.csv.xz) (29 kB)
 
 Event catalogs are uploaded as CSV files and hosted on the Analyze Re platform.
 You can access an example catalog hosted directly on the platform via:
