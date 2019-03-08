@@ -15,11 +15,9 @@ certain areas of the graph, while summarizing other areas. The application shoul
 
 ## Example Data
 
-A large graph with 5384 vertices:
+![](hackathon-stripped.png)
 
-![](5384-vertices.png)
-
-[Download](5384-vertices.dot) as a [Graphviz](https://www.graphviz.org/) DOT file.
+[Download](hackathon-stripped.dot) as a [Graphviz](https://www.graphviz.org/) DOT file.
 
 ## Useful Links
 

@@ -1,7 +1,5 @@
 # CSV Validator
 
-Keywords: Python, CSV, file processing, client-side, REST
-
 Our platform allows users to upload files in CSV form that must follow a
 very specific format. We currently have no fast way of checking the
 validity of these CSV files prior to upload and only encounter errors
@@ -25,11 +23,34 @@ upload.
 
 ## File Format Specification
 
+The specifications for each file format can be found in the Analyze Re Data
+Formats documentation:
+
+- [Analyze Re Data Formats](analyze-re-data-formats.pdf) (PDF)
+
 ## API Specification
+
+You can validate the effectiveness of your solution by uploading corrected
+input files directly to the Analyze Re platform. We have an environment
+setup at https://hackaton-api.analyzere.net which you can use during the
+event.
+
+You can learn about how to interact with the Analyze Re platform API using
+the API documentation which can be found at:
+
+- http://docs.analyzere.net
 
 ## Example Data Sets
 
-## Starter Code
+There are some example files for different formats that you can use to get
+started:
+
+- [catalog_correct.csv](catalog_correct.csv) - Event Catalog (correct
+  format)
+- [catalog_incorrect.csv](catalog_incorrect.csv) - Event Catalog (incorrect
+  format)
+- [yelt_correct.csv](yelt_correct.csv) - YELT file (correct format)
+- [yelt_incorrect.csv](yelt_incorrect.csv) - YELT file (incorrect format)
 
 ## Useful Links
 
