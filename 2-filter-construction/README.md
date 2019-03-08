@@ -28,8 +28,9 @@ API which accepts filter definitions in form of an abstract syntax tree.
 
 ## File Format Specification
 
-The data sets for which filters should be generated are called *Event Catalogs*
-in Analyze Re terminology. Event catalogs are provided by the user in form of a CSV file with the following format:
+The data sets for which filters should be generated are called *Event
+Catalogs* in Analyze Re terminology. Event catalogs are provided by the
+user in form of a CSV file with the following format:
 
 | Column Name | Description                     | Type                             | Required |
 |-------------|---------------------------------|----------------------------------|----------|
@@ -44,9 +45,20 @@ The fields Meta1, Meta2, ..., MetaN are metadata fields that are optional and pr
 
 ## API Specification
 
-The [Analyze Re REST API documentation](http://docs.analyzere.net/) describes
-[how filters are defined and created](http://docs.analyzere.net/#loss-filters)
-on the Analyze Re platform. It provides examples of each of the different filter
+An Event Catalog CSV file is uploaded to the Analyze Re platform API
+against an Event Catalog metadata object. As part of the upload process the
+API server generates an Event Catalog Profile that lists all the attributes
+and their distinct values for the catalog. You can inspect an example of
+such profile at:
+
+https://hackaton-api.analyzere.net/event_catalogs/a2d9fb3a-b60b-489d-8a6d-1ef738353186/profile
+
+You may use this profile or the data from the CSV file to guide the use
+through the creation of filters.
+
+The [Analyze Re REST API documentation](http://docs.analyzere.net/)
+describes [how filters are defined and created](http://docs.analyzere.net/#loss-filters) 
+on the Analyze Re platform. It provides examples of each of the different filter 
 types and how different filters can be combined to define more complex filter
 criteria.
 
@@ -58,10 +70,24 @@ here:
 - [catalog_1.csv.xz](catalog_1.csv.xz) (24 MB)
 - [catalog_2.csv.xz](catalog_2.csv.xz) (29 kB)
 
-Event catalogs are uploaded as CSV files and hosted on the Analyze Re platform.
-You can access an example catalog hosted directly on the platform via:
+There is also an Analyze Re platform environment set up that already has
+some event catalogs configured. They can be found via the following URL:
 
-- `https://hackaton-api.analyzere.net/uploads/files/a2d9fb3a-b60b-489d-8a6d-1ef738353186.csv`
+https://hackaton-api.analyzere.net/event_catalogs/
+
+A specific event catalog is addressed by including its ID in the URL:
+
+https://hackaton-api.analyzere.net/event_catalogs/a2d9fb3a-b60b-489d-8a6d-1ef738353186
+
+In addition, each event catalog comes with a profile, that lists all the
+attributes and distinct attribute values:
+
+https://hackaton-api.analyzere.net/event_catalogs/a2d9fb3a-b60b-489d-8a6d-1ef738353186/profile
+
+Each event catalog also links to its respective CSV file:
+
+https://hackaton-api.analyzere.net/uploads/files/a2d9fb3a-b60b-489d-8a6d-1ef738353186.csv
+
 
 ## Useful Links
 
