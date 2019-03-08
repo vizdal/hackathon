@@ -1,15 +1,5 @@
 # Graph Optimizer
   
-  
-TODO:
-- [ ] Create example input graphs
-- [ ] Render PDF
-- [ ] Render Graphviz images
-- [ ] Develop score card
-- [ ] Develop evaluator for testing
-  
-Keywords: graph theory, algorithms, optimization, server-less
-  
 Much of the computational work we do is represented as a data-flow graph,
 where nodes in that graph perform some type of transformation on the data.
 Some of these transformations exhibit arithmetic properties such as

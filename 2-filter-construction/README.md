@@ -1,7 +1,5 @@
 # Filter Construction Tool
 
-Keywords: REST API, look-ahead auto-completion, abstract syntax tree, usability, UI
-
 In our product we have the ability for users to define filters over their
 data. Unfortunately, the users will have to know what are all the possible
 fields and values they can filter on. In addition they have to represent
