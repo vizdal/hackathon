@@ -31,7 +31,7 @@ A JSON file containing the Efficient Frontier of an optimization run:
 - [optimization.json](optimization.json)
 
 A URL to an existing *Optimization View* on the Analyze Re platform:
-- 
+- Optimized Portfolio (https://hackaton-api.analyzere.net/optimization_views/6c596386-c496-48f2-b176-1c19f7207d53)
 
 ## Useful Links
 
