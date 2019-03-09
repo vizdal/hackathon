@@ -1,0 +1,32 @@
+{
+    "vertices": [
+        {
+            "type": "Source"
+        },
+        {
+            "type": "Scale",
+            "factor": 0.2
+        },
+        {
+            "type": "Scale",
+            "factor": 0.7
+        },
+        {
+            "type": "Terminal"
+        }
+    ],
+    "edges": [
+        {
+            "from": 0, 
+            "to": 1
+        },
+        {
+            "from": 1, 
+            "to": 2
+        },
+        {
+            "from": 2, 
+            "to": 3
+        }
+    ]
+}
